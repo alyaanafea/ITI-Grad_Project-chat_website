@@ -1,0 +1,48 @@
+.background{
+    background: linear-gradient(#181818,#3d3d3d ) !important;
+}
+.menu-icon {
+    background-color: transparent !important;
+  }
+  .position{
+    position: absolute;
+    bottom: 0% !important;
+  }
+  .drawer-toggle:checked ~ .drawer-side {
+    
+    position: fixed;
+    z-index: 6;
+  }
+  .messages-scroll{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 75vh;
+  }
+  .scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #555555 #272727;
+    overflow-y: scroll;
+  }
+  
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: #555555;
+    border-radius: 5px;
+  }
+  
+  .scrollbar::-webkit-scrollbar-track {
+    background-color: #272727;
+  }
+  
+  .scrollbar::-webkit-scrollbar-button {
+    display: none; 
+  }
+  
+  
+  .scrollbar {
+    margin-right: -20px;
+  }

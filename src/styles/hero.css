@@ -1,0 +1,22 @@
+ .back{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  background-color: rgb(0, 0, 0);
+  color: white !important;
+  overflow: hidden;
+}
+ 
+ ::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #6b6b6b;
+  border-radius: 10px;
+} 
+

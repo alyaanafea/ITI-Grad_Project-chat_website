@@ -1,0 +1,9 @@
+input {
+  outline: 2px solid white;
+}
+.valid {
+  outline: 2px solid green;
+}
+.invalid {
+  outline: 2px solid red;
+}

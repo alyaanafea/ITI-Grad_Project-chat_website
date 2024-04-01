@@ -1,0 +1,57 @@
+.bgc {
+  background-color: #000;
+  background: radial-gradient(
+    80.06% 80.06% at 48.71% 53.71%,
+    rgba(0, 0, 0, 0.52) 54.26%,
+    rgba(51, 49, 49, 0.96) 96.5%
+  );
+}
+.btnhover:hover {
+  background: linear-gradient(90deg, #041ad8 0%, #b012aa 78.84%);
+  border: none;
+  transition: 0.2s;
+}
+.linkColor {
+  color: linear-gradient(90deg, #041ad8 0%, #b012aa 78.84%);
+  border: none;
+  transition: 0.2s;
+}
+
+.btnhover:hover {
+  background: linear-gradient(90deg, #041ad8 0%, #b012aa 78.84%);
+  border: none;
+  /* outline: none; */
+  transition: 0.2s;
+}
+.font-grad {
+  background-image: linear-gradient(90deg, #041ad8 0%, #b012aa 78.84%);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; /* Hide original text */
+}
+
+.bgside{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.79) 8.87%, rgba(51, 49, 49, 0.96) 113.29%);
+
+}
+.bgnav{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.79) 8.87%, rgba(33, 32, 32, 0.96) 113.29%);
+
+}
+.bgsearch{
+  background: rgba(72, 72, 72, 1);
+
+
+}
+.line{
+  
+    border-bottom: 2px solid white; 
+    font-weight: bold; 
+ 
+}
+.bg-msg-container{
+  background: linear-gradient(180deg, #121212 19%, #585858 96%);
+
+
+}
+

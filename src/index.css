@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-grad {
+  background-image: linear-gradient(90deg, #041ad8 0%, #b012aa 78.84%);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; /* Hide original text */
+}

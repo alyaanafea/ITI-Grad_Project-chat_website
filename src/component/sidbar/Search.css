@@ -1,0 +1,17 @@
+.search{
+  border: 2px solid #5a5a5a !important;
+  border-radius: 10px !important;
+  width: 90% !important;
+}
+
+.tab {
+  transition: border-bottom 0.3s ease;
+}
+
+.text-white-500 {
+  color: #ffffff; 
+}
+
+.font-bold {
+  font-weight: bold;
+}
